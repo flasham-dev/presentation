@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link
+      rel="stylesheet"
+      href="plugin/highlight/monokai.css"
+      id="highlight-theme"
+    />
+    <style>
+      * {
+        font-family: "Roboto", sans-serif !important;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        text-transform: none !important;
+
+        font-weight: 200 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background-color="#fff">
+          <img src="https://static.flasham.dev/common/logo.png" alt="" />
+          <h4>Les da la bienvenida</h4>
+        </section>
+        <section>
+          <h2>¿Quiénes somos?</h2>
+          <aside class="notes">
+            Somos una startup que busca conectar e innovar negocios
+          </aside>
+        </section>
+        <section>
+          <h2>Nuestro alcance</h2>
+          <aside class="notes">
+            Nuestro objetivo es atender las necesidades de los negocios
+            argentinos de peluquerías, kioscos, verdulerías, panaderías y
+            restaurantes, y además a los proveedores de ropa, autopartes, piezas
+            de entrenamiento, y sus revendedores. También nos interesa los
+            servicios de envío, el marketing digital y contaduría
+          </aside>
+        </section>
+        <section>
+          <section data-transition="convex">
+            <h2>Filosofía</h2>
+          </section>
+          <section data-transition="convex">
+            <p>
+              <q cite="http://www.wwf.org"
+                >Nada se destruye ni se crea, todo se transforma</q
+              >
+              <br />
+              - Ley de Lavoisier
+            </p>
+            <aside class="notes">
+              Somos conscientes de la gran cantidad de servicios novedosos qué
+              existen hoy en día, por eso nuestra intención es que las empresas
+              que ya utilicen estos servicios o no puedan integrarse al mundo
+              Flasham con todos nuestros beneficios al instánte sin necesidad de
+              obligarlos a cambiarse del sistema
+            </aside>
+          </section>
+        </section>
+        <section>
+          <section data-transition="convex">
+            <h2>Nuestra propuesta</h2>
+          </section>
+          <section data-background-color="#190E4F">
+            <img src="./img/modelo.png" alt="">
+          </section>
+          <section data-transition="convex">
+            <img src="./img/flasham.jpeg" alt="" />
+          </section>
+          
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
